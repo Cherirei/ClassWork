@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Main"
+    android:orientation="vertical"
+    tools:context=".IndividualSheetActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Results"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#888888"
+        android:orientation="vertical">
+    <LinearLayout
+         android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/admission"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:layout_margin="1dp"
+            android:text = "Admission No"
+            android:textColor = "#ffffff" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Name"
+            android:textColor = "#ffffff"/>
+
+        <TextView
+            android:id="@+id/english"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "English"
+            android:textColor = "#ffffff"/>
+
+        <TextView
+            android:id="@+id/maths"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Maths"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/kiswahili"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Kiswahili"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/chemistry"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Chem"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/physics"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Physics"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/biology"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Bio"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/history"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "History"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/geo"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Geo"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/CRE"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "C.R.E"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/business"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "B/S"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/agri"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Agri"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/computer"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Comp"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/total"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Total"
+            android:textColor = "#ffffff" />
+        <TextView
+            android:id="@+id/position"
+            android:layout_width = "70dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "Position"
+            android:textColor = "#ffffff" />
+    </LinearLayout>
+       <ListView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/individual_mark_sheet"
+       />
+
+   </LinearLayout>
+
+    </HorizontalScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:id="@+id/button"
+        android:layout_marginTop="100dp"
+        android:background="@color/notsur"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        />
+
+</LinearLayout>

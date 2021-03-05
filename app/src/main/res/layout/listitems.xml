@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FF9800"
+    >
+
+    <TextView
+        android:id="@+id/admission"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Admission No"
+        android:textColor = "#ffffff" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Name"
+        android:textColor = "#ffffff"/>
+
+    <TextView
+        android:id="@+id/english"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "English"
+        android:textColor = "#ffffff"/>
+
+    <TextView
+        android:id="@+id/maths"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Maths"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/kiswahili"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Kiswahili"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/chemistry"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Chem"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/physics"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Physics"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/biology"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Bio"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/history"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "History"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/geo"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Geo"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/CRE"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "C.R.E"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/business"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "B/S"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/agri"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Agri"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/computer"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Comp"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Total"
+        android:textColor = "#ffffff" />
+    <TextView
+        android:id="@+id/position"
+        android:layout_width = "70dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:gravity = "center"
+        android:padding = "5dp"
+        android:text = "Position"
+        android:textColor = "#ffffff" />
+</LinearLayout>

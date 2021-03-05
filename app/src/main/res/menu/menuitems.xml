@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:title="Results "
+            android:id="@+id/results"
+            app:showAsAction="ifRoom"/>
+        <menu>
+        <item android:title="Admission 1"
+            android:id="@+id/one"/>
+        <item android:title="Admission 2"
+            android:id="@+id/two"/>
+        <item android:title="Admission 3"
+            android:id="@+id/three"/>
+        <item android:title="Admission 4"
+            android:id="@+id/four"/>
+        <item android:title="Admission 5"
+            android:id="@+id/five"/>
+        <item android:title="Admission 6"
+            android:id="@+id/six"/>
+        <item android:title="Admission 7"
+            android:id="@+id/seven"/>
+        <item android:title="Admission 8"
+            android:id="@+id/eight"/>
+        <item android:title="Admission 9"
+            android:id="@+id/nine"/>
+        <item android:title="Admission 10"
+            android:id="@+id/ten"/>
+        </menu>
+        />
+</menu>
